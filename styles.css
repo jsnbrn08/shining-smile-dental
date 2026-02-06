@@ -506,6 +506,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: var(--space-xl);
+    align-items: start;
 }
 
 .service-card {
