@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Shining Smile Dental - Your trusted partner for comprehensive dental care. Expert dentists, modern technology, and personalized treatment plans.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Shining Smile Dental - Expert Dental Care">
+    <meta property="og:description"
+        content="Experience exceptional dental care with our team of expert dentists. Book your appointment today!">
+    <title>Shining Smile Dental - Expert Dental Care</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Iconify for icons -->
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="iconify logo-icon" data-icon="medical-icon:i-dental"></span>
+                <span class="logo-text">Shining Smile</span>
+            </div>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#team" class="nav-link">Our Team</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="tel:+1234567890" class="phone-link">
+                    <span class="iconify" data-icon="ph:phone-fill"></span>
+                    (123) 456-7890
+                </a>
+                <button class="btn btn-primary" id="bookNowBtn">Book Appointment</button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span class="iconify" data-icon="heroicons:bars-3"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="iconify" data-icon="ph:star-fill"></span>
+                    Trusted by 10,000+ Happy Patients
+                </div>
+                <h1 class="hero-title">
+                    Your Journey to a
+                    <span class="gradient-text">Shining Smile</span>
+                    Starts Here
+                </h1>
+                <p class="hero-description">
+                    Experience world-class dental care with our team of expert dentists.
+                    We combine cutting-edge technology with personalized treatment to give you the smile you deserve.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-large" id="heroBookBtn">
+                        <span class="iconify" data-icon="ph:calendar-check-fill"></span>
+                        Book Appointment
+                    </button>
+                    <button class="btn btn-secondary btn-large" id="learnMoreBtn">
+                        <span class="iconify" data-icon="ph:play-circle-fill"></span>
+                        Learn More
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10K+</div>
+                        <div class="stat-label">Happy Patients</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">25+</div>
+                        <div class="stat-label">Expert Dentists</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Satisfaction Rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="iconify" data-icon="ph:caret-down"></span>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Services</span>
+                <h2 class="section-title">Comprehensive Dental Care</h2>
+                <p class="section-description">
+                    From routine checkups to advanced cosmetic procedures, we offer a full range of dental services to
+                    meet all your oral health needs.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span class="iconify" data-icon="medical-icon:i-dental"></span>
+                    </div>
+                    <h3 class="service-title">General Dentistry</h3>
+                    <p class="service-description">
+                        Regular checkups, cleanings, and preventive care to maintain optimal oral health.
+                    </p>
+                    <button class="service-link">
+                        Learn More
+                        <span class="iconify" data-icon="ph:arrow-right"></span>
+                    </button>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="service-icon">
+                        <span class="iconify" data-icon="mdi:tooth-outline"></span>
+                    </div>
+                    <h3 class="service-title">Cosmetic Dentistry</h3>
+                    <p class="service-description">
+                        Transform your smile with teeth whitening, veneers, and smile makeovers.
+                    </p>
+                    <button class="service-link">
+                        Learn More
+                        <span class="iconify" data-icon="ph:arrow-right"></span>
+                    </button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span class="iconify" data-icon="game-icons:tooth"></span>
+                    </div>
+                    <h3 class="service-title">Dental Implants</h3>
+                    <p class="service-description">
+                        Permanent solution for missing teeth with natural-looking results.
+                    </p>
+                    <button class="service-link">
+                        Learn More
+                        <span class="iconify" data-icon="ph:arrow-right"></span>
+                    </button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span class="iconify" data-icon="mdi:tooth-outline"></span>
+                    </div>
+                    <h3 class="service-title">Orthodontics</h3>
+                    <p class="service-description">
+                        Straighten your teeth with traditional braces or clear aligners.
+                    </p>
+                    <button class="service-link">
+                        Learn More
+                        <span class="iconify" data-icon="ph:arrow-right"></span>
+                    </button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span class="iconify" data-icon="healthicons:dental-root-canal-outline"></span>
+                    </div>
+                    <h3 class="service-title">Root Canal Therapy</h3>
+                    <p class="service-description">
+                        Save damaged teeth with gentle, pain-free root canal treatment.
+                    </p>
+                    <button class="service-link">
+                        Learn More
+                        <span class="iconify" data-icon="ph:arrow-right"></span>
+                    </button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span class="iconify" data-icon="mdi:tooth-outline"></span>
+                    </div>
+                    <h3 class="service-title">Emergency Care</h3>
+                    <p class="service-description">
+                        Same-day appointments for dental emergencies and urgent care.
+                    </p>
+                    <button class="service-link">
+                        Learn More
+                        <span class="iconify" data-icon="ph:arrow-right"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop"
+                            alt="Modern Dental Clinic" class="about-img">
+                        <div class="about-badge-float">
+                            <span class="iconify" data-icon="ph:trophy-fill"></span>
+                            <div>
+                                <div class="badge-number">15+</div>
+                                <div class="badge-text">Years of Excellence</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <span class="section-badge">About Us</span>
+                    <h2 class="section-title">Where Expertise Meets Compassion</h2>
+                    <p class="about-text">
+                        At Shining Smile Dental, we believe that everyone deserves a healthy, beautiful smile.
+                        For over 15 years, we've been providing exceptional dental care to families in our community.
+                    </p>
+                    <p class="about-text">
+                        Our state-of-the-art facility is equipped with the latest dental technology, and our team
+                        of experienced professionals is committed to making your visit comfortable and stress-free.
+                    </p>
+
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <span class="iconify feature-icon" data-icon="ph:check-circle-fill"></span>
+                            <div>
+                                <h4>Advanced Technology</h4>
+                                <p>Latest equipment for precise diagnosis and treatment</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span class="iconify feature-icon" data-icon="ph:check-circle-fill"></span>
+                            <div>
+                                <h4>Expert Team</h4>
+                                <p>Highly qualified dentists with years of experience</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span class="iconify feature-icon" data-icon="ph:check-circle-fill"></span>
+                            <div>
+                                <h4>Patient-Centered Care</h4>
+                                <p>Personalized treatment plans tailored to your needs</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary" id="scheduleVisitBtn">
+                        <span class="iconify" data-icon="ph:calendar-check-fill"></span>
+                        Schedule a Visit
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Team</span>
+                <h2 class="section-title">Meet Our Expert Dentists</h2>
+                <p class="section-description">
+                    Our team of highly qualified dental professionals is dedicated to providing you with the best care
+                    possible.
+                </p>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&h=500&fit=crop"
+                            alt="Dr. Sarah Johnson">
+                        <div class="team-social">
+                            <a href="#" class="social-link"><span class="iconify"
+                                    data-icon="ph:linkedin-logo-fill"></span></a>
+                            <a href="#" class="social-link"><span class="iconify"
+                                    data-icon="ph:twitter-logo-fill"></span></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Dr. Sarah Johnson</h3>
+                        <p class="team-role">Chief Dental Officer</p>
+                        <p class="team-description">
+                            15+ years of experience in cosmetic and restorative dentistry.
+                            Specialized in smile makeovers and dental implants.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&h=500&fit=crop"
+                            alt="Dr. Michael Chen">
+                        <div class="team-social">
+                            <a href="#" class="social-link"><span class="iconify"
+                                    data-icon="ph:linkedin-logo-fill"></span></a>
+                            <a href="#" class="social-link"><span class="iconify"
+                                    data-icon="ph:twitter-logo-fill"></span></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Dr. Michael Chen</h3>
+                        <p class="team-role">Orthodontist</p>
+                        <p class="team-description">
+                            Expert in orthodontics with a passion for creating beautiful,
+                            straight smiles using the latest techniques.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=500&fit=crop"
+                            alt="Dr. Emily Rodriguez">
+                        <div class="team-social">
+                            <a href="#" class="social-link"><span class="iconify"
+                                    data-icon="ph:linkedin-logo-fill"></span></a>
+                            <a href="#" class="social-link"><span class="iconify"
+                                    data-icon="ph:twitter-logo-fill"></span></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Dr. Emily Rodriguez</h3>
+                        <p class="team-role">Pediatric Dentist</p>
+                        <p class="team-description">
+                            Specializes in children's dentistry, making dental visits
+                            fun and comfortable for young patients.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=500&fit=crop"
+                            alt="Dr. James Wilson">
+                        <div class="team-social">
+                            <a href="#" class="social-link"><span class="iconify"
+                                    data-icon="ph:linkedin-logo-fill"></span></a>
+                            <a href="#" class="social-link"><span class="iconify"
+                                    data-icon="ph:twitter-logo-fill"></span></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Dr. James Wilson</h3>
+                        <p class="team-role">Oral Surgeon</p>
+                        <p class="team-description">
+                            Board-certified oral surgeon with expertise in complex
+                            extractions and dental implant surgery.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Testimonials</span>
+                <h2 class="section-title">What Our Patients Say</h2>
+                <p class="section-description">
+                    Don't just take our word for it - hear from our satisfied patients about their experiences.
+                </p>
+            </div>
+
+            <div class="testimonials-slider">
+                <button class="slider-btn prev-btn" id="prevBtn">
+                    <span class="iconify" data-icon="ph:caret-left"></span>
+                </button>
+
+                <div class="testimonials-viewport">
+                    <div class="testimonials-track" id="testimonialsTrack">
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                            </div>
+                            <p class="testimonial-text">
+                                "Dr. Johnson and her team transformed my smile completely! The entire process was
+                                painless and the results exceeded my expectations. I can't stop smiling now!"
+                            </p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop"
+                                    alt="Jennifer Martinez" class="author-image">
+                                <div>
+                                    <div class="author-name">Jennifer Martinez</div>
+                                    <div class="author-location">Los Angeles, CA</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                            </div>
+                            <p class="testimonial-text">
+                                "I've always been anxious about dental visits, but the team here made me feel so
+                                comfortable. The facility is modern and clean, and the staff is incredibly friendly."
+                            </p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop"
+                                    alt="Robert Thompson" class="author-image">
+                                <div>
+                                    <div class="author-name">Robert Thompson</div>
+                                    <div class="author-location">San Diego, CA</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                            </div>
+                            <p class="testimonial-text">
+                                "My kids actually look forward to their dental appointments now! Dr. Rodriguez is
+                                amazing with children and makes the experience fun and educational."
+                            </p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop"
+                                    alt="Amanda Lee" class="author-image">
+                                <div>
+                                    <div class="author-name">Amanda Lee</div>
+                                    <div class="author-location">San Francisco, CA</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                            </div>
+                            <p class="testimonial-text">
+                                "Professional, efficient, and caring. The dental implant procedure was much easier
+                                than I expected. Highly recommend Shining Smile Dental!"
+                            </p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
+                                    alt="David Park" class="author-image">
+                                <div>
+                                    <div class="author-name">David Park</div>
+                                    <div class="author-location">Sacramento, CA</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                            </div>
+                            <p class="testimonial-text">
+                                "After years of hiding my smile, the cosmetic dentistry work here gave me the confidence
+                                I never had. The veneers look so natural, nobody can tell they're not my real teeth!"
+                            </p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop"
+                                    alt="Sarah Mitchell" class="author-image">
+                                <div>
+                                    <div class="author-name">Sarah Mitchell</div>
+                                    <div class="author-location">Oakland, CA</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                            </div>
+                            <p class="testimonial-text">
+                                "I had a dental emergency on a Saturday and they got me in right away. Dr. Wilson was
+                                fantastic - he saved my tooth and the pain relief was immediate. True lifesavers!"
+                            </p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop"
+                                    alt="Marcus Johnson" class="author-image">
+                                <div>
+                                    <div class="author-name">Marcus Johnson</div>
+                                    <div class="author-location">Fresno, CA</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                                <span class="iconify star" data-icon="ph:star-fill"></span>
+                            </div>
+                            <p class="testimonial-text">
+                                "The orthodontic treatment with clear aligners was perfect for my busy lifestyle.
+                                I got straight teeth without the hassle of traditional braces. Couldn't be happier!"
+                            </p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop"
+                                    alt="Lisa Chen" class="author-image">
+                                <div>
+                                    <div class="author-name">Lisa Chen</div>
+                                    <div class="author-location">San Jose, CA</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="slider-btn next-btn" id="nextBtn">
+                    <span class="iconify" data-icon="ph:caret-right"></span>
+                </button>
+            </div>
+
+            <div class="slider-dots" id="sliderDots"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-badge">Contact Us</span>
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="contact-description">
+                        Have questions or ready to schedule an appointment? We're here to help!
+                        Reach out to us and we'll get back to you as soon as possible.
+                    </p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <span class="iconify" data-icon="ph:map-pin-fill"></span>
+                            </div>
+                            <div>
+                                <h4>Visit Us</h4>
+                                <p>123 Dental Street, Suite 100<br>Los Angeles, CA 90001</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <span class="iconify" data-icon="ph:phone-fill"></span>
+                            </div>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>(123) 456-7890<br>Mon-Fri: 8AM - 6PM</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <span class="iconify" data-icon="ph:envelope-fill"></span>
+                            </div>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>info@shiningsmile.com<br>support@shiningsmile.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link-large"><span class="iconify"
+                                data-icon="ph:facebook-logo-fill"></span></a>
+                        <a href="#" class="social-link-large"><span class="iconify"
+                                data-icon="ph:instagram-logo-fill"></span></a>
+                        <a href="#" class="social-link-large"><span class="iconify"
+                                data-icon="ph:twitter-logo-fill"></span></a>
+                        <a href="#" class="social-link-large"><span class="iconify"
+                                data-icon="ph:linkedin-logo-fill"></span></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="general">General Dentistry</option>
+                                <option value="cosmetic">Cosmetic Dentistry</option>
+                                <option value="implants">Dental Implants</option>
+                                <option value="orthodontics">Orthodontics</option>
+                                <option value="root-canal">Root Canal Therapy</option>
+                                <option value="emergency">Emergency Care</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span class="iconify" data-icon="ph:paper-plane-fill"></span>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="iconify logo-icon" data-icon="medical-icon:i-dental"></span>
+                        <span class="logo-text">Shining Smile</span>
+                    </div>
+                    <p class="footer-description">
+                        Your trusted partner for comprehensive dental care.
+                        We're committed to helping you achieve and maintain a healthy, beautiful smile.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link"><span class="iconify"
+                                data-icon="ph:facebook-logo-fill"></span></a>
+                        <a href="#" class="footer-social-link"><span class="iconify"
+                                data-icon="ph:instagram-logo-fill"></span></a>
+                        <a href="#" class="footer-social-link"><span class="iconify"
+                                data-icon="ph:twitter-logo-fill"></span></a>
+                        <a href="#" class="footer-social-link"><span class="iconify"
+                                data-icon="ph:linkedin-logo-fill"></span></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">General Dentistry</a></li>
+                        <li><a href="#services">Cosmetic Dentistry</a></li>
+                        <li><a href="#services">Dental Implants</a></li>
+                        <li><a href="#services">Orthodontics</a></li>
+                        <li><a href="#services">Emergency Care</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Office Hours</h4>
+                    <ul class="footer-hours">
+                        <li>
+                            <span>Monday - Friday</span>
+                            <span>8:00 AM - 6:00 PM</span>
+                        </li>
+                        <li>
+                            <span>Saturday</span>
+                            <span>9:00 AM - 4:00 PM</span>
+                        </li>
+                        <li>
+                            <span>Sunday</span>
+                            <span>Closed</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Shining Smile Dental. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Appointment Modal -->
+    <div class="modal" id="appointmentModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <span class="iconify" data-icon="ph:x"></span>
+            </button>
+
+            <div class="modal-header">
+                <h2>Book Your Appointment</h2>
+                <p>Choose your preferred date and time, and we'll confirm your appointment shortly.</p>
+            </div>
+
+            <form class="appointment-form" id="appointmentForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="appointmentName">Full Name</label>
+                        <input type="text" id="appointmentName" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="appointmentEmail">Email</label>
+                        <input type="email" id="appointmentEmail" name="email" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="appointmentPhone">Phone</label>
+                        <input type="tel" id="appointmentPhone" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="appointmentService">Service</label>
+                        <select id="appointmentService" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="general">General Dentistry</option>
+                            <option value="cosmetic">Cosmetic Dentistry</option>
+                            <option value="implants">Dental Implants</option>
+                            <option value="orthodontics">Orthodontics</option>
+                            <option value="root-canal">Root Canal Therapy</option>
+                            <option value="emergency">Emergency Care</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="appointmentDate">Preferred Date</label>
+                        <input type="date" id="appointmentDate" name="date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="appointmentTime">Preferred Time</label>
+                        <select id="appointmentTime" name="time" required>
+                            <option value="">Select a time</option>
+                            <option value="08:00">8:00 AM</option>
+                            <option value="09:00">9:00 AM</option>
+                            <option value="10:00">10:00 AM</option>
+                            <option value="11:00">11:00 AM</option>
+                            <option value="13:00">1:00 PM</option>
+                            <option value="14:00">2:00 PM</option>
+                            <option value="15:00">3:00 PM</option>
+                            <option value="16:00">4:00 PM</option>
+                            <option value="17:00">5:00 PM</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="appointmentNotes">Additional Notes (Optional)</label>
+                    <textarea id="appointmentNotes" name="notes" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">
+                    <span class="iconify" data-icon="ph:calendar-check-fill"></span>
+                    Confirm Appointment
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Service Details Modal -->
+    <div class="modal" id="serviceModal">
+        <div class="modal-overlay" id="serviceModalOverlay"></div>
+        <div class="modal-content service-modal-content">
+            <button class="modal-close" id="serviceModalClose">
+                <span class="iconify" data-icon="ph:x"></span>
+            </button>
+
+            <div class="service-modal-header">
+                <div class="service-modal-icon" id="serviceModalIcon">
+                    <span class="iconify" data-icon="medical-icon:i-dental"></span>
+                </div>
+                <h2 id="serviceModalTitle">Service Title</h2>
+            </div>
+
+            <div class="service-modal-body" id="serviceModalBody">
+                <!-- Content will be dynamically inserted -->
+            </div>
+
+            <div class="service-modal-footer">
+                <button class="btn btn-secondary" id="serviceModalBack">
+                    <span class="iconify" data-icon="ph:arrow-left"></span>
+                    Back to Services
+                </button>
+                <button class="btn btn-primary" id="serviceModalBook">
+                    <span class="iconify" data-icon="ph:calendar-check-fill"></span>
+                    Book Appointment
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
