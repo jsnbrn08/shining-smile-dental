@@ -570,10 +570,19 @@ ul {
     font-size: 3rem;
     color: var(--primary-500);
     margin-bottom: var(--space-lg);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .service-card.featured .service-icon {
     color: var(--white);
+}
+
+.service-icon .iconify {
+    width: 3rem;
+    height: 3rem;
 }
 
 .service-title {
